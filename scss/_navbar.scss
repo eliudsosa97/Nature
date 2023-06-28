@@ -1,0 +1,118 @@
+$green-hover: rgb(17, 152, 44);
+$dark-blue: rgb(4, 0, 43);
+$white-ghost:rgb(250, 249, 253);
+.navbar {
+    background-color: $white-ghost;
+    .navbar__logo {
+        width:50px ;
+    }
+}
+.search {
+    overflow: hidden;
+    border-radius: 8px;
+    &>input[type=text]{
+        float: right;
+        border: none;
+        font-size: 17px;
+    }
+}
+.search__icon__wrapper {
+    display: none;
+    & > button{
+    border: none;
+    background-color: transparent;
+    }
+}
+.login__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    white-space: nowrap;
+    
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    line-height: 19px;
+    &:hover {
+        color: $green-hover
+    }
+}
+.categorys__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    
+    a {
+        text-decoration: none;
+        color: $dark-blue;
+        margin: 0 10px;
+        &:hover{
+            color: $green-hover;
+        }
+    }
+}
+.slider__wrapper{
+    margin-bottom: 5%;
+}
+
+.carousel-inner .carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta el nivel de opacidad aquí */
+  }
+  
+  .carousel-inner .carousel-item img {
+    object-fit: cover;
+    height: 500px;
+    width: auto;
+  }
+  .slider__cards__wrapper{
+    display: flex;
+    justify-content: center;
+  }
+  .card{
+    padding: 10px 5px;
+    width: 15rem;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &>img{
+        width: 100px;
+        
+        
+    }
+  }
+  .card-title {
+    text-align: center;
+  }
+
+
+@media (max-width:992px) {
+    .search{
+        display: none;
+    }
+    .search__icon__wrapper{
+        display: block;
+    }
+}
+@media (max-width:768px){
+    
+    .slider__cards__wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .card {
+            margin: 15px;
+            width: 25rem;
+        }
+    }
+}
