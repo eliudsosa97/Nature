@@ -1,0 +1,39 @@
+.section__login {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__login {
+    width: 100%;
+    height: 5rem;
+    background-color: $white-ghost;
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+    &>a{
+        text-decoration: none;
+        color: $green-hover;
+    >img {
+        width: 50px;
+    }
+}
+
+}
+
+.login__wrapper {
+    width: 30rem; 
+    background-color: white;
+    padding: 5% 0;
+    box-shadow: $box-shadow-cards;
+    border-radius: 10px;
+
+}
+form{
+    &>a{
+        text-decoration: none;
+        
+    }
+}

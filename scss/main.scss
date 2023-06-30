@@ -1,4 +1,9 @@
-@import './navbar';
+@import './home/navbar';
+@import './home/slider';
+@import './media-queries.scss';
+@import './home/grid__cards';
+@import './home/form-footer';
+@import './login';
 
 
 body {

@@ -27,8 +27,8 @@
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"
-              ><img class="navbar__logo" src="/assets/mundo-logo.png" alt=""
-            /></a>
+              ><img class="navbar__logo" src="/assets/colibri_logo.png" alt=""
+            />REGENERATE</a>
             <div class="search">
                 <input type="text" placeholder="Buscar">
             </div>
@@ -52,20 +52,20 @@
             </div>
             
           </div>
-          <div class="collapse navbar-collapse ms-3" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-2 mb-2 mb-lg-0">
               <li class="nav-item mx-2">
-                    <a class="login__wrapper" aria-current="page" href="#"><img src="/assets/heart-icon.svg" alt="">Mi lista</a>
+                    <a class="item__wrapper" aria-current="page" href="#"><img src="/assets/heart-icon.svg" alt="">Mi lista</a>
               </li>
               <li class="nav-item mx-2">
-                    <a class="login__wrapper" aria-current="page" href="#"><img src="/assets/package-icon.svg" alt="">Mis Pedidos</a>
+                    <a class="item__wrapper" aria-current="page" href="#"><img src="/assets/package-icon.svg" alt="">Mis Pedidos</a>
               </li>
               <li class="nav-item mx-2">
-                    <a class="login__wrapper" aria-current="page" href="#"><img src="/assets/bag-icon.svg" alt="">Mis productos</a>
+                    <a class="item__wrapper" aria-current="page" href="#"><img src="/assets/bag-icon.svg" alt="">Mis productos</a>
               </li>
               <li class="nav-item">
                 <div>
-                    <a class="login__wrapper" aria-current="page" href="#"><img src="/assets/user.svg" alt="">Iniciar Sesión</a>
+                    <a class="item__wrapper" aria-current="page" href="/login.html"><img src="/assets/user.svg" alt="">Iniciar Sesión</a>
                 </div>
               </li>
             </ul>
@@ -76,9 +76,9 @@
     <!-- ------------Menú de Categorías -->
     <section class="categorys">
         <div class="categorys__wrapper">
-            <span><a href="">Suplementos</a></span>
-            <span><a href="">Alimentación</a></span>
-            <span><a href="">Cosmética</a></span>
+            <span><a href="#suplementos">Suplementos</a></span>
+            <span><a href="#alimentacion">Alimentación</a></span>
+            <span><a href="#cosmetica">Cosmética</a></span>
             <span><a href="">Mamá y bebé</a></span>
             <span><a href="">Hogar y huerta</a></span>
             <span><a href="">Guía de salud</a></span>
@@ -129,8 +129,12 @@
     </section>
     <!-- --------Slider Cards------------ -->
     <section>
+        <h3 class="heading__3">Destacados</h3>
         <div class="slider__cards__wrapper">
-            <div class="card card1">
+            <div class="card">
+                <button class="icon__heart">
+                    <img src="./assets/heart-icon.svg" alt="heart-icon">
+                </button>
                 <img src="https://m.media-amazon.com/images/I/61ByHV7XppL.__AC_SX300_SY300_QL70_ML2_.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -139,6 +143,9 @@
                 </div>
             </div>
             <div class="card">
+                <button class="icon__heart">
+                    <img src="./assets/heart-icon.svg" alt="heart-icon">
+                </button>
                 <img src="https://m.media-amazon.com/images/I/61ByHV7XppL.__AC_SX300_SY300_QL70_ML2_.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -147,6 +154,9 @@
                 </div>
             </div>
             <div class="card">
+                <button class="icon__heart">
+                    <img src="./assets/heart-icon.svg" alt="heart-icon">
+                </button>
                 <img src="https://m.media-amazon.com/images/I/61ByHV7XppL.__AC_SX300_SY300_QL70_ML2_.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -156,7 +166,151 @@
             </div>
         </div>
     </section>
+<!-- ------------ Publicity ------------------- -->
+    <section>
+        <div class="img__publicity__wrapper">
+            <img src="https://production.na01.natura.com/on/demandware.static/-/Sites-NatMexico-Library/default/dwf2ddff6c/2023/06/19_a_2/4_Banners/19.6/2.%20Homem/27245_MX_CuidadoRostro_Homem_19-6_Desk.jpg" alt="text-publicity" class="img__publicity">
+            <img src="/assets/descuento-colibri-min.png" alt="text-publicity" class="img__publicity img__sm">
+        </div>
+    </section>
 
+    <!-- --------------- section grid cards ---------------->
+
+    <section class="categorys__cards__wrapper" id="suplementos">
+        <h5>Suplementos</h5>
+        <div class="grid__cards__wrapper">
+            
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+            
+        </div>
+    </section>
+    <section class="categorys__cards__wrapper" id="alimentacion">
+        <h5>Alimentación</h5>
+        <div class="grid__cards__wrapper">
+            
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+            
+        </div>
+    </section>
+    <section class="categorys__cards__wrapper" id="cosmetica">
+        <h5>Cosmética</h5>
+        <div class="grid__cards__wrapper">
+            
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+                <a href="#" class="card__grid">
+                    <img src="https://soy-naturista.com/279-thickbox_default/120-capsulas-moringa-organica.jpg" alt="">
+                    <h4>Titulo</h4>
+                    <h5>$599</h5>
+                </a>
+            
+        </div>
+    </section>
+
+    <!-- ---- Form ----------------- -->
+
+    <form>
+        <div class="form__wrapper">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control my-2" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control my-2" id="email" placeholder="Ingrese su correo electrónico">
+        </div>
+        <div class="form-group">
+          <label for="comentarios">Deja tus comentarios</label>
+          <textarea class="form-control my-2" id="comentarios" rows="4" placeholder="Ingrese sus comentarios"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success my-2">Enviar</button>
+      </form>
+    </div>
+
+    <!-- ------ Footer ------------- -->
+
+    <footer>
+        <div class="footer__wrapper">
+            <div class="icons__social__wrapper">
+                <img src="./assets/facebook.svg" alt="facebook">
+                <img src="./assets/instagram.svg" alt="">
+                <img src="./assets/wa.svg" alt="">
+            </div>
+            <div class="flex__footer">
+                <a href="#">Acerca de Nosotros</a>
+                <a href="#">Ayuda</a>
+                <a href="3">Soporte</a>
+            </div>
+            <p>@2023 Nature. Todos los derechos reservados</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi nihil dolore facilis soluta quae provident in nobis maxime, atque ipsum qui optio sequi voluptate minima dolorum debitis eveniet dignissimos!</p>
+        </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
