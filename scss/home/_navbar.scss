@@ -3,8 +3,20 @@ $dark-blue: rgb(4, 0, 43);
 $white-ghost: rgb(250, 249, 253);
 $gray: rgb(224, 224, 224);
 
+
+.navbar__fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: $white-ghost;
+  z-index: 999;
+}
 .navbar {
   background-color: $white-ghost;
+  display: inline-block;
+  height: 100%;
+  
   .navbar__logo {
     width: 50px;
     margin-right: 5px;
@@ -59,6 +71,7 @@ $gray: rgb(224, 224, 224);
 .categorys {
   background-color: $gray;
   padding: 15px;
+  margin-top: 5rem;
 }
 
 .categorys__wrapper {
