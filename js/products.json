@@ -1,0 +1,167 @@
+[
+    {
+        "id": "vitamina-01",
+        "title": "Vitamina D3 30 caps.",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/vitamina-01.webp",
+        "category": {
+            "name": "Suplementos",
+            "id": "suplementos"
+        },
+        "precio": 108
+    },
+    {
+        "id": "citrato-mg",
+        "title": "Citrato De Magnesio 60 Cap",
+        "description": "El citrato de magnesio se usa para tratar estreñimiento de corto plazo. El citrato de magnesio pertenece a una clase de medicamentos llamados laxantes salinos. Funciona al hacer que el agua se retenga con las heces. Esto aumenta el número de deposiciones y suaviza las heces para que sean más fáciles de expulsar",
+        "image": "./assets/citrato.webp",
+        "category": {
+            "name": "Suplementos",
+            "id": "suplementos"
+        },
+        "precio": 160
+    },
+    {
+        "id": "cloruro",
+        "title": "Cloruro Magnesio Mas Zinc 100 Tab",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/cloruro.webp",
+        "category": {
+            "name": "Suplementos",
+            "id": "suplementos"
+        },
+        "precio": 108
+    },
+    {
+        "id": "citrato",
+        "title": "Citrato De Potasio 60 Cap",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/citrato-potasio.webp",
+        "category": {
+            "name": "Suplementos",
+            "id": "suplementos"
+        },
+        "precio": 300
+    },
+    {
+        "id": "yodo",
+        "title": "Yodo 30 Cap",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/yodo.webp",
+        "category": {
+            "name": "Suplementos",
+            "id": "suplementos"
+        },
+        "precio": 108
+    },
+    {
+        "id": "pestanas",
+        "title": "Tratamiento Para Pestañas En Crema",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/pestanas.webp",
+        "category": {
+            "name": "Cosmética",
+            "id": "cosmetica"
+        },
+        "precio": 80
+    },
+    {
+        "id": "toallitas",
+        "title": "Toallitas Desmaquillantes Aloe Vera 30 Pzas",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/toallitas.webp",
+        "category": {
+            "name": "Cosmética",
+            "id": "cosmetica"
+        },
+        "precio": 108
+    },
+    {
+        "id": "ojos",
+        "title": "Tratamiento Contorno De Ojos 30 Ml",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/ojos.webp",
+        "category": {
+            "name": "Cosmética",
+            "id": "cosmetica"
+        },
+        "precio": 108
+    },
+    {
+        "id": "rimel",
+        "title": "Rimel De Almendras 13 G",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/rimel.webp",
+        "category": {
+            "name": "Cosmética",
+            "id": "cosmetica"
+        },
+        "precio": 108
+    },
+    {
+        "id": "gel",
+        "title": "Gel Contorno De Ojos Celulas Madre Manzana Y Argan 30 G",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/gel.webp",
+        "category": {
+            "name": "Cosmética",
+            "id": "cosmetica"
+        },
+        "precio": 350
+    },
+    {
+        "id": "hemp",
+        "title": "Hemp 100 G",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/hemp.webp",
+        "category": {
+            "name": "Alimentación",
+            "id": "alimentacion"
+        },
+        "precio": 108
+    },
+    {
+        "id": "semilla",
+        "title": "Semilla De Girasol 500 G",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/semilla.webp",
+        "category": {
+            "name": "Alimentación",
+            "id": "alimentacion"
+        },
+        "precio": 108
+    },
+    {
+        "id": "amaranto",
+        "title": "Amaranto 250 G",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/amaranto.webp",
+        "category": {
+            "name": "Alimentación",
+            "id": "alimentacion"
+        },
+        "precio": 60
+    },
+    {
+        "id": "chia",
+        "title": "Semilla De Chia 500 G",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/chia.webp",
+        "category": {
+            "name": "Alimentación",
+            "id": "alimentacion"
+        },
+        "precio": 117
+    },
+    {
+        "id": "vitamina-01",
+        "title": "Quinoa 300 G",
+        "description": "Ayuda al cuerpo a absorber el calcio, una de las principales sustancias necesarias para tener huesos fuertes. Junto con el calcio, la vitamina D contribuye a prevenir la osteoporosis, una enfermedad que hace que los huesos se vuelvan más delgados y débiles y sean más propensos a fracturas.",
+        "image": "./assets/quinoa.webp",
+        "category": {
+            "name": "Alimentación",
+            "id": "alimentacion"
+        },
+        "precio": 120
+    }
+]

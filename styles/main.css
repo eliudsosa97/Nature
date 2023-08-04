@@ -224,6 +224,7 @@
   padding: 5% 5% 5%;
 }
 .grid__cards__wrapper .card__grid {
+  padding: 5px 7px;
   background-color: white;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -241,6 +242,8 @@
 .grid__cards__wrapper .card__grid h5 {
   color: black;
   transition: color 0.3s ease-in-out;
+  font-size: 15px;
+  text-align: center;
 }
 .grid__cards__wrapper .card__grid:hover {
   transform: scale(1.05);
