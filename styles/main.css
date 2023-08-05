@@ -129,7 +129,7 @@
   justify-content: center;
 }
 .card > img {
-  width: 100px;
+  width: 200px;
 }
 .card .icon__heart {
   width: auto;
@@ -325,6 +325,110 @@
 
 form > a {
   text-decoration: none;
+}
+
+input[type=radio] {
+  display: none;
+}
+input[type=radio]:checked + label:before {
+  background: antiquewhite;
+  color: aliceblue;
+  background: red;
+  padding: 7px 15px;
+  border-radius: 8px;
+}
+input[type=radio]:checked + label {
+  background: rgb(17, 44, 17);
+  padding: 7px 10px 7px 10px;
+  width: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.label {
+  background: rgb(250, 249, 253);
+  padding: 7px 10px 7px 10px;
+  width: auto;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.quiz__container {
+  padding: 10% 10%;
+  margin: 5% 15%;
+  border-radius: 8px;
+  background-color: rgb(17, 152, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+.quiz__container .img__quiz {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 3px 20px 30px, rgba(0, 0, 0, 0.12) -1px 13px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.quiz__container img {
+  width: 100%;
+}
+.quiz__container p {
+  color: rgb(250, 249, 253);
+  font-size: 22px;
+  text-align: center;
+}
+.quiz__container .answer__wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+}
+.quiz__container .answer__wrapper .input__birthday {
+  padding: 8px 4px;
+  width: 25%;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 3px;
+  text-align: center;
+  border: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+.quiz__container .answer__wrapper .input__birthday:focus-visible {
+  outline: none;
+}
+.quiz__container .answer__wrapper .input__medidas {
+  width: 50%;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  padding: 5px 8px;
+}
+.quiz__container .btn__wrapper {
+  display: flex;
+  gap: 7px;
+}
+.quiz__container .btn__wrapper .btn__quiz {
+  padding: 6px 16px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+.quiz__container .btn__wrapper .btn__quiz:hover {
+  background-color: rgb(222, 222, 222);
+}
+.quiz__container .btn__submit {
+  padding: 6px 16px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+.quiz__container .btn__submit:hover {
+  background-color: rgb(222, 222, 222);
 }
 
 body {

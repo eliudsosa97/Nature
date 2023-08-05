@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/mundo-logo.png"
+      type="image/x-icon"
+    />
+    <title>Nature</title>
+  </head>
+  <body>
+    <section class="navbar__fixed">
+      <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"
+              ><img class="navbar__logo" src="/assets/colibri_logo.png" alt=""
+            />REGENERATE</a>
+            <div class="search">
+                <input type="text" placeholder="Buscar">
+            </div>
+            <div class="search__icon__wrapper">
+                
+                <button>
+                    <img src="/assets/search-icon.svg" class="search__icon"></img>
+
+                </button>
+                <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                    <a class="item__wrapper" aria-current="page" href="#"><img src="/assets/heart-icon.svg" alt="">Mi lista</a>
+              </li>
+              <li class="nav-item mx-2">
+                    <a class="item__wrapper" aria-current="page" href="#"><img src="/assets/package-icon.svg" alt="">Mis Pedidos</a>
+              </li>
+              <li class="nav-item mx-2">
+                    <a class="item__wrapper" aria-current="page" href="/quiz.html"><img src="/assets/quiz-icon.svg" alt="">Quiz</a>
+              </li>
+              <li class="nav-item">
+                <div>
+                    <a class="item__wrapper" aria-current="page" href="/login.html"><img src="/assets/user.svg" alt="">Iniciar Sesión</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <!-- ------------Menú de Categorías -->
+    <section class="categorys">
+        <div class="categorys__wrapper">
+            <span><a href="#suplementos">Suplementos</a></span>
+            <span><a href="#alimentacion">Alimentación</a></span>
+            <span><a href="#cosmetica">Cosmética</a></span>
+            <span><a href="">Mamá y bebé</a></span>
+            <span><a href="">Hogar y huerta</a></span>
+            <span><a href="">Guía de salud</a></span>
+        </div>
+    </section>
+
+  <!-- ----------Quiz------------------- -->
+
+  <section id="quiz-form">
+    
+    <!-- step 1 -->
+    <div class="quiz__container" id="step1">
+        <div class="img__quiz"><img src="/assets/mundo-logo.png" alt="mundo"></div>
+        
+        <p class="question">¿Cuál es tu fecha de nacimiento?</p>
+        <div class="answer__wrapper">
+            <input class="input__birthday" id="day" placeholder="Día" type="number">
+            <input class="input__birthday" id="month" placeholder="Mes" type="number">
+            <input class="input__birthday" id="year" placeholder="Año" type="number">
+       
+        </div>
+        <div class="btn__wrapper">
+            
+            <button class="btn__quiz" onclick="nextStep(2)">Siguiente</button>
+            
+        </div>
+    </div>
+    <!-- step 2 -->
+    <div class="quiz__container" id="step2">
+        <div class="img__quiz"><img src="/assets/mundo-logo.png" alt="mundo"></div>
+        <p class="question">Cuál es tu sexo biologico</p>
+        <div class="answer__wrapper">
+                <input type="radio" class="radio" name="sexo" id="hombre" value="H">
+				<label for="hombre" class="label">Hombre</label>
+		
+				<input type="radio" name="sexo" id="mujer" value="M">
+				<label for="mujer" class="label">Mujer</label>
+        </div>
+        <div class="btn__wrapper">
+            
+            <button class="btn__quiz" onclick="prevStep(1)">Anterior</button>
+            <button class="btn__quiz" onclick="nextStep(3)">Siguiente</button>
+            
+        </div>
+    </div>
+    <!-- step 3 -->
+    <div class="quiz__container" id="step3">
+        <div class="img__quiz"><img src="/assets/mundo-logo.png" alt="mundo"></div>
+        <p class="question">Estatura y peso</p>
+        <div class="answer__wrapper">
+            
+            <input class="input__medidas" placeholder="Estatura en cm." type="number" id="altura">
+            <input class="input__medidas" placeholder="Peso en kg." type="number" id="peso">
+            
+        </div>
+        <div class="btn__wrapper">
+            
+            <button class="btn__quiz" onclick="prevStep(2)">Anterior</button>
+            <button class="btn__quiz" onclick="nextStep(4)">Siguiente</button>
+            
+        </div>
+    </div>
+    <!-- step 4 -->
+    <div class="quiz__container" id="step4">
+        <div class="img__quiz"><img src="/assets/mundo-logo.png" alt="mundo"></div>
+        <p class="question">¿Cuál es tu objetivo?</p>
+        <div class="answer__wrapper">
+                <input type="radio" class="radio" name="objetivo" id="paq1" value="Paquete 1">
+				<label for="paq1" class="label">Bajar de Peso</label>
+		
+				<input type="radio" name="objetivo" id="paq2" value="Paquete 2">
+				<label for="paq2" class="label">Aumentar masa muscular</label>
+				<input type="radio" name="objetivo" id="paq3" value="Paquete 3">
+				<label for="paq3" class="label">Prevenir enfermedades</label>
+        </div>
+        <div class="btn__wrapper">
+            
+            <button class="btn__quiz" onclick="prevStep(3)">Anterior</button>
+            <button class="btn__quiz" onclick="nextStep(5)">Siguiente</button>
+            
+        </div>
+    </div>
+    <!-- step 5 -->
+    <div class="quiz__container" id="step5">
+        <div class="img__quiz"><img src="/assets/mundo-logo.png" alt="mundo"></div>
+        <p class="question">Nombre y correo</p>
+        <div class="answer__wrapper">
+            <input type="text" placeholder="Nombre Completo" id="nombre">
+            <input type="email" placeholder="email" id="email">
+        </div>
+        <button class="btn__submit" onclick="showResult()">Finalizar</button>
+    </div>
+     <!-- Resultado -->
+  <div class="quiz__container" id="stepresult">
+    <h2>Perfil REGENERATE</h2>
+    <div class="results__wrapper">
+        <h3>Tu edad: </h3>
+        <p id="edadE"></p>
+        <h3>Nombre:</h3>
+        <p id="nombreE"></p>
+        <h3>Tu IMC</h3>
+        <p id="imcE"></p>
+        <h3>Estatus IMC</h3>
+        <p id="estatusIMCE"></p>
+        <h3>Paquete Recomendado</h3>
+        <p id="paqRE"></p>
+    </div>
+    <p id="result-message"></p>
+  </div>
+
+  </section>
+
+ 
+
+    <!-- ------ Footer ------------- -->
+
+    <footer>
+        <div class="footer__wrapper">
+            <div class="icons__social__wrapper">
+                <img src="./assets/facebook.svg" alt="facebook">
+                <img src="./assets/instagram.svg" alt="">
+                <img src="./assets/wa.svg" alt="">
+            </div>
+            <div class="flex__footer">
+                <a href="#">Acerca de Nosotros</a>
+                <a href="#">Ayuda</a>
+                <a href="3">Soporte</a>
+            </div>
+            <p>@2023 Nature. Todos los derechos reservados</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi nihil dolore facilis soluta quae provident in nobis maxime, atque ipsum qui optio sequi voluptate minima dolorum debitis eveniet dignissimos!</p>
+        </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/quiz.js"></script>
+  </body>
+</html>

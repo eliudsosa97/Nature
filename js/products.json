@@ -8,7 +8,8 @@
             "name": "Suplementos",
             "id": "suplementos"
         },
-        "precio": 108
+        "precio": 108,
+        "featured": false
     },
     {
         "id": "citrato-mg",
@@ -19,7 +20,8 @@
             "name": "Suplementos",
             "id": "suplementos"
         },
-        "precio": 160
+        "precio": 160,
+        "featured": false
     },
     {
         "id": "cloruro",
@@ -30,7 +32,8 @@
             "name": "Suplementos",
             "id": "suplementos"
         },
-        "precio": 108
+        "precio": 108,
+        "featured": false
     },
     {
         "id": "citrato",
@@ -41,7 +44,8 @@
             "name": "Suplementos",
             "id": "suplementos"
         },
-        "precio": 300
+        "precio": 300,
+        "featured": false
     },
     {
         "id": "yodo",
@@ -52,7 +56,8 @@
             "name": "Suplementos",
             "id": "suplementos"
         },
-        "precio": 108
+        "precio": 108,
+        "featured": false
     },
     {
         "id": "pestanas",
@@ -63,7 +68,8 @@
             "name": "Cosmética",
             "id": "cosmetica"
         },
-        "precio": 80
+        "precio": 80,
+        "featured": false
     },
     {
         "id": "toallitas",
@@ -74,7 +80,8 @@
             "name": "Cosmética",
             "id": "cosmetica"
         },
-        "precio": 108
+        "precio": 108,
+        "featured": false
     },
     {
         "id": "ojos",
@@ -85,7 +92,8 @@
             "name": "Cosmética",
             "id": "cosmetica"
         },
-        "precio": 108
+        "precio": 108,
+        "featured": false
     },
     {
         "id": "rimel",
@@ -96,7 +104,8 @@
             "name": "Cosmética",
             "id": "cosmetica"
         },
-        "precio": 108
+        "precio": 108,
+        "featured": false
     },
     {
         "id": "gel",
@@ -107,7 +116,8 @@
             "name": "Cosmética",
             "id": "cosmetica"
         },
-        "precio": 350
+        "precio": 350,
+        "featured": false
     },
     {
         "id": "hemp",
@@ -118,7 +128,8 @@
             "name": "Alimentación",
             "id": "alimentacion"
         },
-        "precio": 108
+        "precio": 108,
+        "featured": false
     },
     {
         "id": "semilla",
@@ -129,7 +140,8 @@
             "name": "Alimentación",
             "id": "alimentacion"
         },
-        "precio": 108
+        "precio": 108,
+        "featured": false
     },
     {
         "id": "amaranto",
@@ -140,7 +152,8 @@
             "name": "Alimentación",
             "id": "alimentacion"
         },
-        "precio": 60
+        "precio": 60,
+        "featured": false
     },
     {
         "id": "chia",
@@ -151,7 +164,8 @@
             "name": "Alimentación",
             "id": "alimentacion"
         },
-        "precio": 117
+        "precio": 117,
+        "featured": true
     },
     {
         "id": "vitamina-01",
@@ -162,6 +176,7 @@
             "name": "Alimentación",
             "id": "alimentacion"
         },
-        "precio": 120
+        "precio": 120,
+        "featured": true
     }
 ]
