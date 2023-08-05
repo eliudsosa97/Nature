@@ -71,36 +71,7 @@ const destacadosHTML = products.filter(product => product.featured === true)
 
 }
 
-// Obtén todos los botones con la clase "btn__agregar"
-const buttons = document.querySelectorAll('.btn__agregar');
 
-// Array para almacenar los productos seleccionados en la lista de deseos
-const listaDeseos = [];
-
-// Agrega el evento click a cada botón
-buttons.forEach((button, index) => {
-  button.addEventListener('click', () => {
-    const productoSeleccionado = products[index]; // Suponiendo que tienes un array "products" con los datos de los productos
-
-    // Verifica si el producto ya está en la lista de deseos para evitar duplicados
-    if (!listaDeseos.includes(productoSeleccionado)) {
-      listaDeseos.push(productoSeleccionado); // Agrega el producto al array de lista de deseos
-      actualizarListaDeseos(); // Actualiza la lista de deseos en el DOM
-    }
-  });
-});
-
-// Función para actualizar la lista de deseos en el DOM
-function actualizarListaDeseos() {
-  const listaElement = document.getElementById('lista');
-  listaElement.innerHTML = ''; // Limpia la lista para evitar duplicados
-
-  listaDeseos.forEach(producto => {
-    const listItem = document.createElement('li');
-    listItem.textContent = producto.title; // Muestra el nombre del producto, puedes mostrar otros detalles aquí
-    listaElement.appendChild(listItem);
-  });
-}
 
 
 
